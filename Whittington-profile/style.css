@@ -1,12 +1,12 @@
 body {
-    background-color: #85bc00;
+    background-color: #000066;
 }
 
 .card {
     background-color: #fff;
-    margin: 4rem auto;
+    margin: 4rem auto 4rem auto;
     border-radius: 4px;
-    box-shadow: 0 0 15px 5px rgba(0, 55, 99, 0.3);
+    box-shadow: 0 0 15px 5px ;
     display: flex;
     flex-direction: column;
     max-width: 350px;
@@ -14,12 +14,12 @@ body {
 
 .profile {
     border-radius:4px 4px 0px 0px;
-    background-image: 
+    /*background-image: 
     linear-gradient(rgba(0, 55, 99, 0.55), rgba(0, 55, 0, 0.3)),
-    url("http://tech901.org/wp-content/uploads/2018/08/slider-background-e1552578493505.png");
-    background-position: center center;
+    url("http://tech901.org/wp-content/uploads/2018/08/slider-background-e1552578493505.png");*/
+    background-position: center;
     background-size: cover;
-    background-color:#003763;
+    background-color: #737373;
 }
 
 .profile-pic img {
@@ -49,6 +49,8 @@ body {
     padding: 1rem 0 0 0.5rem;
     letter-spacing: 2px;
     font-weight: 600;
+    text-align: center;
+   
 }
 .profession {
     font-family:"Lato", sans-serif;
@@ -70,7 +72,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     font-family: "Lato", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color: #555555;
     text-align: center;
     line-height: 28px;
